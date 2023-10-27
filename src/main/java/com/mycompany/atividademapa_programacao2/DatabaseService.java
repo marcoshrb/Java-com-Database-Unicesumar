@@ -11,7 +11,7 @@ public class DatabaseService {
     public static Connection getConnection(){
         try{       
             if(conn == null){
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mapa", "root", "henrique2003");
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mapa", "root", "password");
                 return conn;               
             } else{
                 return conn;
